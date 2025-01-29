@@ -23,7 +23,7 @@ export default function About() {
           </h3>
 
           <p className="text-sm md:text-base text-justify leading-relaxed text-gray-700">
-          Mr. <span className="font-bold">Maharudra Swami </span>is the visionary founder of the Swamy Group, which was established in 1995. With decades of entrepreneurial expertise and an unwavering commitment to excellence, he laid the foundation for a diversified business empire. Eagle Global Exim House, a sincere concern of the Swamy Group, reflects his passion for driving global trade while upholding the highest standards of integrity and quality. Under his leadership, the Swamy Group has carved a niche in industries ranging from exports to manufacturing, building trust and credibility in domestic and international markets.
+          Mr. <span className="font-bold">Maharudra Swami </span>is the visionary founder of the swami Group, which was established in 1995. With decades of entrepreneurial expertise and an unwavering commitment to excellence, he laid the foundation for a diversified business empire. Eagle Global Exim House, a sincere concern of the swami Group, reflects his passion for driving global trade while upholding the highest standards of integrity and quality. Under his leadership, the swami Group has carved a niche in industries ranging from exports to manufacturing, building trust and credibility in domestic and international markets.
           </p>
         </div>
       </div>
