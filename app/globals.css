@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+@font-face {
+  font-family: 'greatvibes';
+  src: url('/fonts/greatvibes.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

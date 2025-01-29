@@ -11,6 +11,9 @@ export default {
        customRed:"#ea2123",
        customGray:"#3d4c52"
       },
+      fontFamily: {
+        greatVibes:['greatvibes','serif']
+      }
     },
   },
   plugins: [],

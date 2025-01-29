@@ -1,3 +1,4 @@
+"use client";
 const Slider = () => {
     return (
       <div className="relative w-full h-[60vh] md:h-[75vh] max-w-full overflow-hidden">
