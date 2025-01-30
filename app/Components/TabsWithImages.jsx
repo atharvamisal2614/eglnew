@@ -69,10 +69,8 @@ export default function TabsWithImages() {
       <div className="text-center mb-6 mt-16">
         <h6 className="italic text-2xl md:text-3xl text-customGray relative inline-block">
           Our Authentic Food
-         
         </h6>
       </div>
-
       <div className="grid grid-cols-2 gap-4 justify-items-center md:flex justify-center sm:space-x-8">
         {Object.keys(imageSections).map((section) => (
           <button
