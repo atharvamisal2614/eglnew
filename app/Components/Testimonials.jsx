@@ -21,7 +21,7 @@ function TestimonialSection() {
   };
 
   return (
-    <section className="text-gray-700 italic body-font py-24">
+    <section className="text-gray-700 italic body-font py-14">
       <div className="container px-5 mx-auto text-center">
         <h6 className="italic  text-2xl md:text-3xl text-customGray relative inline-block">
           Testimonials

@@ -64,11 +64,9 @@ const tabLabels = {
 
 export default function TabsWithImages() {
   const [activeTab, setActiveTab] = useState("basmati");
-
   return (
-    <div className="container mx-auto p-16">
-   
-      <div className="text-center mb-6">
+    <div className="container mx-auto p-16" >
+      <div className="text-center mb-6 mt-16">
         <h6 className="italic text-2xl md:text-3xl text-customGray relative inline-block">
           Our Authentic Food
          

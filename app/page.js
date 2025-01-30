@@ -1,7 +1,6 @@
 "use client";
 import About from "./Components/AboutUs";
-import Footer from "./Components/Footer";
-import Navbar from "./Components/Navbar";
+import Video from "./Components/Video"
 import Slider from "./Components/Slider";
 import TabsWithImages from "./Components/TabsWithImages";
 import TestimonialSection from "./Components/Testimonials";
@@ -19,8 +18,11 @@ export default function Home() {
       <Slider />
       <About />
       <WhyChooseUs />
+      
       <TabsWithImages />
+      <Video/>
       <TestimonialSection />
+  
     </>
   );
 }

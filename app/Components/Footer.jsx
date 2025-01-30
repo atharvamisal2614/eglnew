@@ -15,9 +15,7 @@ const Footer = () => {
         />
         <div className="absolute inset-0 bg-black bg-opacity-80 z-0"></div>
       </div>
-
       <div className="container mx-auto flex flex-col lg:flex-row justify-center items-center md:text-left relative z-10 space-y-12 lg:space-y-0 lg:space-x-80">
-        {/* Left Section */}
         <div className="flex flex-col space-y-4 lg:max-w-xs lg:items-start">
           <h3 className="font-semibold text-lg uppercase">Explore</h3>
           <ul className="space-y-6">
@@ -32,23 +30,18 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-
-        {/* Center Section */}
         <div className="flex flex-col items-center space-y-4">
           <Image
             src="/images/eagle-logo-og.jpg"
             alt="Logo"
             height={100}
             width={130}
-          // className="w-full"
           />
           <div className="text-gray-300 text-sm leading-relaxed text-center max-w-xs">
             <p>Join us at Eagle Global for an unforgettable getaway.</p>
             <p>Office No.104, First floor, Global Plaza, Kharadi, Pune.</p>
           </div>
         </div>
-
-        {/* Right Section */}
         <div className="flex flex-col space-y-4 lg:max-w-xs lg:items-end md:text-right">
           <h3 className="font-semibold text-lg uppercase">Contact Us</h3>
           <ul className="space-y-6">
@@ -62,7 +55,7 @@ const Footer = () => {
             </li>
             <li className="border-b border-gray-500 pb-1">
             <Link href={'mailto:enquiry@eagleglobaleximhouse.com'}>enquiry@eagleglobaleximhouse.com</Link>
-</li>
+            </li>
             <li className="border-b border-gray-500 pb-1">
               <Link
                 href="https://maps.app.goo.gl/oFaxE6M3Uo1LAtC76"
@@ -74,15 +67,11 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-
-      {/* Footer Bottom Section */}
       <div className="border-t border-gray-600 pt-6 text-center mt-12">
         <p className="text-gray-300 text-sm">
           © {new Date().getFullYear()} Eagle Global Exim House, All Rights Reserved.
         </p>
       </div>
-
-
     </footer>
   );
 };

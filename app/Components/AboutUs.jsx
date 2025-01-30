@@ -15,9 +15,9 @@ const About = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 2000); // Change image every 2 seconds
+    }, 2000);
 
-    return () => clearInterval(interval); // Cleanup on component unmount
+    return () => clearInterval(interval);
   }, []);
 
   const handleDotClick = (index) => {
@@ -29,7 +29,6 @@ const About = () => {
       <div className="flex flex-wrap lg:flex-nowrap">
         <div className="w-full lg:w-1/2 flex justify-center">
           <div className="relative w-full h-[95%] overflow-hidden">
-            {/* Carousel Images with Smooth Fade */}
             {images.map((src, index) => (
               <div
                 key={index}
@@ -44,7 +43,6 @@ const About = () => {
                 />
               </div>
             ))}
-            {/* Carousel Dots */}
             <div className="absolute bottom-0 left-0 right-0 flex justify-center gap-2 py-4">
               {images.map((_, index) => (
                 <button
