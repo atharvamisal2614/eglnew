@@ -249,7 +249,7 @@ const Contact = () => {
   return (
     <section className="text-customGray body-font relative">
       {/* Contact Us Heading */}
-      <div className="text-center py-10">
+      <div className="text-center py-8">
         <h2 className="text-4xl font-bold text-customRed">Contact Us</h2>
         <p className="text-gray-700 mt-2">
           Have questions? Get in touch with us. We'd love to hear from you!
@@ -331,7 +331,7 @@ const Contact = () => {
                 type="submit"
                 className="w-full bg-customRed text-white font-bold py-2 rounded-md hover:bg-red-600 transition duration-300"
               >
-                Send Message
+                Enquire Now
               </button>
 
               {status && (
