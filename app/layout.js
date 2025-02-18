@@ -3,7 +3,7 @@ export const metadata = {
   title: "Eagle Global Exim House",
   description: "Eagle Global Exim House",
   icons: {
-    icon: ["/images/eagle-logo-og.jpg"],
+    icon: ["/images/eagle-global-logo-og.jpg"],
   },
 };
 export default function Layout({ children }) {

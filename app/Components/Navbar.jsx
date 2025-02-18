@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center px-2">
         <Link href="/">
           <Image
-            src="/images/eagle-logo.png"
+            src="/images/eagle-global-logo-og.jpg"
             alt="Logo"
             width={250}
             height={200}

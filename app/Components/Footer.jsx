@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col items-center space-y-4">
           <Image
-            src="/images/eagle-logo-og.jpg"
+            src="/images/eagle-global-logo-og.jpg"
             alt="Logo"
             height={100}
             width={130}
